@@ -1,5 +1,5 @@
 import Veterinario from "../models/Veterinario.js"; //El metodo registrar y confirmar debe usar el modelo correspondiente {Veterinario.js} para que solamente acepte los datos definidos en el modelo y {Registrar, Confirmar, Autenticar} tengan acceso al documento
-import generarId from "../utils/generarID.js";
+import generarID from "../utils/generarID.js";
 import generarJWT from "../utils/generarJWT.js";
 import emailRegistro from "../utils/emailRegistro.js";
 import emailOlvidePassword from "../utils/emailOlvidePassword.js";
