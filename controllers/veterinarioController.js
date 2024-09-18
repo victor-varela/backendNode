@@ -127,7 +127,7 @@ const olvidePassword = async (req, res) => {
   }
 
   try {
-    existeVeterinario.token = generarId(); //Generamos el id/token nuevo y luego guardamos en la DB-- existeVeterinario = Veterinario(modelo) tenemos acceso a sus metodos y los campos
+    existeVeterinario.token = generarID(); //Generamos el id/token nuevo y luego guardamos en la DB-- existeVeterinario = Veterinario(modelo) tenemos acceso a sus metodos y los campos
     await existeVeterinario.save();
 
     //Enviar Email- Se hace en este punto del codigo despues que se guardo .save() correctamente ya que debemos generar el token. Hacerlo antes es un error.
