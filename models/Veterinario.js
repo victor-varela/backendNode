@@ -1,6 +1,6 @@
 import mongoose from "mongoose"; //importamos el ODM (objet data model) de esta manera ya nuestro MODELO tiene los metodos de mongoose que seran utilizados en el CONTROLADOR
 import bcrypt from "bcrypt";
-import generarId from "../utils/generarID.js";
+import generarId from "../utils/generarId.js";
 
 //En el modelo tambien es donde se hashean los passwords- Esto se hace con una dependencia, hay muchas, en este caso usamos bcrypt
 
